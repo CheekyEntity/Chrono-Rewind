@@ -133,6 +133,13 @@ If you encounter issues:
 
 ## Version History
 
+### 1.1.0 - 0.7.8 Compatibility Update
+- Updated health restoration to target Mage Arena 0.7.8
+- Removed reflection assumption about NonPublic field; now uses resilient reflection to access `playerHealth` and `ServerHealth` (Public/NonPublic, Instance)
+- Health restore sets both `playerHealth` and `ServerHealth` to avoid client/server desync
+- No clamping of health values to support buffs and consumables that exceed 100 HP
+- Bumped package and assembly version to 1.1.0
+
 ### 1.0.0 - Initial Release
 - Core Chronos Rewind spell functionality
 - Server-authoritative position tracking system
