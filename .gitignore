@@ -1,0 +1,33 @@
+# Build outputs
+bin/
+obj/
+*.dll
+*.pdb
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+*.cache
+
+# Unity
+*.meta
+Temp/
+Library/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Package files (generated)
+*.zip
+
+# References (should be obtained separately)
+src/References/*.dll
+
+# Resources (will be added later)
+src/Resources/chronomancer.bundle
